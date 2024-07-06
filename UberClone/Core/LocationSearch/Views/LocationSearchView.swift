@@ -60,10 +60,10 @@ struct LocationSearchView: View {
                     ForEach(viewModel.result, id: \.self){ result in
                         LocationSearchResultCell(title: result.title, subTitle: result.subtitle)
                             .onTapGesture {
-                                
-                                viewModel.selectLocation(result)
-                                
-                                mapState = .locationSelected
+                                withAnimation(.spring){
+                                    viewModel.selectLocation(result)
+                                    mapState = .locationSelected
+                                }
                                 
                             }
                     }
