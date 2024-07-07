@@ -23,6 +23,7 @@
 		9AC0C3322C3741DC0022F9A7 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC0C3312C3741DC0022F9A7 /* LocationManager.swift */; };
 		9ACEBF022C3AB7BC00DFADE6 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACEBF012C3AB7BC00DFADE6 /* Double.swift */; };
 		9ACEBF042C3ABE4700DFADE6 /* UberLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACEBF032C3ABE4700DFADE6 /* UberLocation.swift */; };
+		9ACEBF062C3ADBDB00DFADE6 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACEBF052C3ADBDB00DFADE6 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		9AC0C3312C3741DC0022F9A7 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		9ACEBF012C3AB7BC00DFADE6 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		9ACEBF032C3ABE4700DFADE6 /* UberLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberLocation.swift; sourceTree = "<group>"; };
+		9ACEBF052C3ADBDB00DFADE6 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				9ACEBF012C3AB7BC00DFADE6 /* Double.swift */,
+				9ACEBF052C3ADBDB00DFADE6 /* Color.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				9A4787062C3894BF00717319 /* MapViewState.swift in Sources */,
 				9A4786FE2C37F5B500717319 /* MapViewActionButton.swift in Sources */,
 				9AC0C3192C373C960022F9A7 /* UberCloneApp.swift in Sources */,
+				9ACEBF062C3ADBDB00DFADE6 /* Color.swift in Sources */,
 				9AC0C3302C373E840022F9A7 /* UberMapViewRepresetable.swift in Sources */,
 				9AC0C32E2C373DE50022F9A7 /* HomeView.swift in Sources */,
 				9ACEBF042C3ABE4700DFADE6 /* UberLocation.swift in Sources */,
