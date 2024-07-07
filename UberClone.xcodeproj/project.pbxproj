@@ -21,6 +21,7 @@
 		9AC0C32E2C373DE50022F9A7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC0C32D2C373DE50022F9A7 /* HomeView.swift */; };
 		9AC0C3302C373E840022F9A7 /* UberMapViewRepresetable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC0C32F2C373E840022F9A7 /* UberMapViewRepresetable.swift */; };
 		9AC0C3322C3741DC0022F9A7 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC0C3312C3741DC0022F9A7 /* LocationManager.swift */; };
+		9ACEBF022C3AB7BC00DFADE6 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACEBF012C3AB7BC00DFADE6 /* Double.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		9AC0C32D2C373DE50022F9A7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		9AC0C32F2C373E840022F9A7 /* UberMapViewRepresetable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberMapViewRepresetable.swift; sourceTree = "<group>"; };
 		9AC0C3312C3741DC0022F9A7 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		9ACEBF012C3AB7BC00DFADE6 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 		9AC0C3282C373D220022F9A7 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				9ACEBF012C3AB7BC00DFADE6 /* Double.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 				9A4787002C37F7A400717319 /* LocationSearchView.swift in Sources */,
 				9AC0C3322C3741DC0022F9A7 /* LocationManager.swift in Sources */,
 				9A4787092C395B6600717319 /* RideRequestView.swift in Sources */,
+				9ACEBF022C3AB7BC00DFADE6 /* Double.swift in Sources */,
 				9A4787062C3894BF00717319 /* MapViewState.swift in Sources */,
 				9A4786FE2C37F5B500717319 /* MapViewActionButton.swift in Sources */,
 				9AC0C3192C373C960022F9A7 /* UberCloneApp.swift in Sources */,
