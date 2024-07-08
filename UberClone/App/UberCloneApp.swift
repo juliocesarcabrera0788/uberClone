@@ -6,16 +6,24 @@
 //
 
 import SwiftUI
+import Firebase
+
 
 @main
 struct UberCloneApp: App {
     
     @StateObject var locationViewModel = LocationSearchViewModel()
+    @StateObject var authViewModel = AuthViewModel()
+    
+    init(){
+        FirebaseApp.configure()
+    }
     
     var body: some Scene {
         WindowGroup {
-            HomeView()
+            InitialView()
                 .environmentObject(locationViewModel)
+                .environmentObject(authViewModel)
         }
     }
 }
